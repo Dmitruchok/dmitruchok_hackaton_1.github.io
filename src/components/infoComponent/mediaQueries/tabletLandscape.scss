@@ -1,0 +1,18 @@
+@import '../desktop';
+.wrapper {
+          width: px(2048);
+          height: px(1551);
+          background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image_land.png');
+          background-size: cover;
+          a {
+            img {
+                margin-top: px(340);
+                }
+            }
+          .log_in {
+                  padding-top: px(150);
+                  input::-webkit-input-placeholder {
+                        padding-left: px(20);
+                        }
+                  }
+           }

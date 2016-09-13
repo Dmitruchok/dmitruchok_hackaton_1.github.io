@@ -1,0 +1,51 @@
+@import '../mobile';
+.wrapper {
+          width: px(1536);
+          height: px(1718);
+          background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image_tablet.png');
+          background-size: cover;
+          a {
+            img {
+                margin-top: px(450);
+                width: px(200);
+                height: px(200);
+                }
+            }
+
+          .log_in {
+                  padding-top: px(200);
+                  .name {
+                        margin: px(20);
+                        width: px(650);
+                        background: url("../images/infoComponent/icon-username.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+                        background-size: px(40);
+                        }
+                    .pass {
+                          margin: px(20);
+                          width: px(650);
+                          background: url("../images/infoComponent/icon-password.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+                          background-size: px(40);
+                          }
+
+                      input::-webkit-input-placeholder {
+                          color: #fff;
+                          font-size: px(26);
+                          }
+
+                      button {
+                              margin: px(20);
+                              width: px(650);
+                              height: px(98);
+                              p {
+                                color: #fff;
+                                }
+                              }
+                  }
+
+          footer {
+                  width: px(645);
+                  a {
+                    font-size: px(22);
+                    }
+                  }
+        }
