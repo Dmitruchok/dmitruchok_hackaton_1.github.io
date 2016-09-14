@@ -9,8 +9,8 @@
   					    text-align: center;
   							img {
   									margin-top: px(220);
-  									width: px(200);
-  									height: px(200);
+  									width: px(160);
+  									height: px(180);
   									}
   								}
 
@@ -20,22 +20,22 @@
   										align-items: center;
   										padding-top: px(230);
   										.name {
-  													margin: px(20);
-  												  width: px(650);
-  												  padding: px(34) px(30) px(34) px(90);
+  													margin-top: px(22);
+  												  width: px(480);
+  												  padding: px(25) px(30) px(25) px(90);
   												  border: none;
   												  border-radius: px(60) px(60);
-  													background: url("../images/infoComponent/icon-username.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+  													background: url("../images/infoComponent/icon-username.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
   													background-size: px(40);
   													outline: none;
   													}
   									.pass {
-  												margin: px(20);
-  												width: px(650);
-  												padding: px(34) px(30) px(34) px(90);
+  												margin-top: px(30);
+  												width: px(480);
+  												padding: px(25) px(30) px(25) px(90);
   												border: none;
   												border-radius: px(60) px(60);
-  												background: url("../images/infoComponent/icon-password.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+  												background: url("../images/infoComponent/icon-password.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
   												background-size: px(40);
   												outline: none;
   												}
@@ -43,32 +43,31 @@
   									input::-webkit-input-placeholder {
                           padding-left: px(20);
   												color: #fff;
-  												font-size: px(22);
+  												font-size: px(20);
   												}
 
   									button {
+                          color: #fff;
   												background-color: #f96332;
-  												margin: px(20);
-  												width: px(650);
-  												height: px(98);
+                          padding: px(25) 0 px(30) 0;
+                          font-size: px(22);
+  												margin-top: px(55);
+  												width: px(480);
   												outline: none;
   												border: none;
   												border-radius: px(60) px(60);
-  												p {
-  													color: #fff;
-  													}
   												}
   										}
 
   						footer {
   										display: flex;
-  								    margin: 0 auto;
-  								    width: px(645);
+  								    margin: px(45) auto;
+  								    width: px(480);
   								    justify-content: space-between;
   										a {
   											display: inline-block;
   											color: #99948e;
-  											font-size: px(22);
+  											font-size: px(18);
   											text-decoration: none;
   										}
   									}
