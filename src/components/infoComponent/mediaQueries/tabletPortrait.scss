@@ -6,46 +6,48 @@
           background-size: cover;
           a {
             img {
-                margin-top: px(450);
-                width: px(200);
-                height: px(200);
+                margin-top: px(430);
+                width: px(240);
+                height: px(250);
                 }
             }
 
           .log_in {
-                  padding-top: px(200);
+                  padding-top: px(180);
                   .name {
+                        padding: px(36) px(30) px(34) px(90);
                         margin: px(20);
                         width: px(650);
-                        background: url("../images/infoComponent/icon-username.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+                        background: url("../images/infoComponent/icon-username.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
                         background-size: px(40);
                         }
                     .pass {
-                          margin: px(20);
+                          padding: px(36) px(30) px(34) px(90);
+                          margin: px(18);
                           width: px(650);
-                          background: url("../images/infoComponent/icon-password.png") 7% 50% no-repeat, rgba(249, 249, 249, .17);
+                          background: url("../images/infoComponent/icon-password.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
                           background-size: px(40);
                           }
 
                       input::-webkit-input-placeholder {
+                        	padding-left: px(30);
                           color: #fff;
                           font-size: px(26);
                           }
 
                       button {
-                              margin: px(20);
+                              color: #fff;
+                              padding: px(36) 0 px(34) 0;
+                              margin-top: px(70);
                               width: px(650);
-                              height: px(98);
-                              p {
-                                color: #fff;
-                                }
                               }
                   }
 
           footer {
                   width: px(645);
+                  margin: px(60) auto;
                   a {
-                    font-size: px(22);
+                    font-size: px(23);
                     }
                   }
         }
