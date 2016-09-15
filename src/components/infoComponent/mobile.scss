@@ -1,11 +1,10 @@
 & {
 	.wrapper {
-						font-family: 'Montserrat Alternates';
-						width: px(640);
-						height: px(1138);
-						background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image.png');
-						background-size: cover;
-
+		font-family: 'Montserrat Alternates';
+		width: px(640);
+		height: px(1138);
+		background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image.png');
+		background-size: cover;
 						/*&::before {
 						content:'';
 						display: block;
@@ -17,72 +16,71 @@
 						background-size: cover;
 						z-index: 1;
 					}*/
-
-						a {
-							display: block;
-					    text-align: center;
-							img {
-									margin-top: px(157);
-									width: px(200);
-									height: px(200);
-									}
-								}
-
-						.log_in {
-										display: flex;
-										flex-direction: column;
-										align-items: center;
-										padding-top: px(295);
-										.name {
-													margin-top: px(20);
-												  width: px(550);
-												  padding: px(30) px(30) px(34) px(90);
-												  border: none;
-												  border-radius: px(60) px(60);
-													background: url("../images/infoComponent/icon-username.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
-													background-size: px(40);
-													outline: none;
-													}
-									.pass {
-												margin-top: px(24);
-												width: px(550);
-												padding: px(32) px(30) px(34) px(90);
-												border: none;
-												border-radius: px(60) px(60);
-												background: url("../images/infoComponent/icon-password.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
-												background-size: px(40);
-												outline: none;
-												}
-
-									input::-webkit-input-placeholder {
-												padding-left: px(14);
-												color: #fff;
-												font-size: px(22);
-												}
-
-									button {
-												color: #fff;
-												background-color: #f96332;
-												margin-top: px(22);
-												width: px(550);
-												padding: px(32) 0 px(34) 0;
-												outline: none;
-												border: none;
-												border-radius: px(60) px(60);
-												}
-										}
-
-						footer {
-										display: flex;
-								    margin: px(42) auto;
-								    width: px(548);
-								    justify-content: space-between;
-										a {
-											display: inline-block;
-											color: #99948e;
-											font-size: px(20);
-											text-decoration: none;
-										}
-									}
+					a {
+						display: block;
+						text-align: center;
+						img {
+							margin-top: px(157);
+							width: px(200);
+							height: px(200);
 						}
+					}
+
+					.log_in {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						padding-top: px(295);
+						.name {
+							margin-top: px(20);
+							width: px(550);
+							padding: px(30) px(30) px(34) px(90);
+							border: none;
+							border-radius: px(60) px(60);
+							background: url("../images/infoComponent/icon-username.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
+							background-size: px(40);
+							outline: none;
+						}
+						.pass {
+							margin-top: px(24);
+							width: px(550);
+							padding: px(32) px(30) px(34) px(90);
+							border: none;
+							border-radius: px(60) px(60);
+							background: url("../images/infoComponent/icon-password.png") 6% 50% no-repeat, rgba(249, 249, 249, .17);
+							background-size: px(40);
+							outline: none;
+						}
+
+						input::-webkit-input-placeholder {
+							padding-left: px(14);
+							color: #fff;
+							font-size: px(22);
+						}
+
+						button {
+							color: #fff;
+							background-color: #f96332;
+							margin-top: px(22);
+							width: px(550);
+							padding: px(32) 0 px(34) 0;
+							outline: none;
+							border: none;
+							border-radius: px(60) px(60);
+						}
+					}
+
+					footer {
+						display: flex;
+						margin: px(42) auto;
+						width: px(548);
+		    		justify-content: space-between;
+						a {
+							display: inline-block;
+							color: #99948e;
+							font-size: px(20);
+							text-decoration: none;
+						}
+					}
+				}
 			}

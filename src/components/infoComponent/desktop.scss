@@ -1,75 +1,75 @@
 & {
-    .wrapper {
-              height: px(1718);
-  					  font-family: 'Montserrat Alternates';
-    					background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image_land.png');
-  						background-size: cover;
-  						a {
-  							display: block;
-  					    text-align: center;
-  							img {
-  									margin-top: px(220);
-  									width: px(160);
-  									height: px(180);
-  									}
-  								}
+  .wrapper {
+    height: px(1718);
+    font-family: 'Montserrat Alternates';
+    background: linear-gradient(to bottom, rgba(254, 105, 58,.7) 0%,rgba(4, 2, 1,.7) 100%), url('../images/infoComponent/background_image_land.png');
+    background-size: cover;
+    a {
+      display: block;
+      text-align: center;
+      img {
+        margin-top: px(220);
+        width: px(160);
+        height: px(180);
+      }
+    }
 
-  						.log_in {
-  										display: flex;
-  										flex-direction: column;
-  										align-items: center;
-  										padding-top: px(230);
-  										.name {
-  													margin-top: px(22);
-  												  width: px(480);
-  												  padding: px(25) px(30) px(25) px(90);
-  												  border: none;
-  												  border-radius: px(60) px(60);
-  													background: url("../images/infoComponent/icon-username.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
-  													background-size: px(40);
-  													outline: none;
-  													}
-  									.pass {
-  												margin-top: px(30);
-  												width: px(480);
-  												padding: px(25) px(30) px(25) px(90);
-  												border: none;
-  												border-radius: px(60) px(60);
-  												background: url("../images/infoComponent/icon-password.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
-  												background-size: px(40);
-  												outline: none;
-  												}
+    .log_in {
+      display: flex;
+      flex-direction: column;
+  		align-items: center;
+  		padding-top: px(230);
+      .name {
+        margin-top: px(22);
+  			width: px(480);
+  			padding: px(25) px(30) px(25) px(90);
+  			border: none;
+  			border-radius: px(60) px(60);
+  			background: url("../images/infoComponent/icon-username.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
+  			background-size: px(40);
+  			outline: none;
+      }
+      .pass {
+        margin-top: px(30);
+  			width: px(480);
+  			padding: px(25) px(30) px(25) px(90);
+  			border: none;
+  			border-radius: px(60) px(60);
+  			background: url("../images/infoComponent/icon-password.png") 7% 52% no-repeat, rgba(249, 249, 249, .17);
+  			background-size: px(40);
+  			outline: none;
+      }
 
-  									input::-webkit-input-placeholder {
-                          padding-left: px(20);
-  												color: #fff;
-  												font-size: px(20);
-  												}
+      input::-webkit-input-placeholder {
+        padding-left: px(20);
+        color: #fff;
+        font-size: px(20);
+      }
 
-  									button {
-                          color: #fff;
-  												background-color: #f96332;
-                          padding: px(25) 0 px(30) 0;
-                          font-size: px(22);
-  												margin-top: px(55);
-  												width: px(480);
-  												outline: none;
-  												border: none;
-  												border-radius: px(60) px(60);
-  												}
-  										}
+      button {
+        color: #fff;
+        background-color: #f96332;
+        padding: px(25) 0 px(30) 0;
+        font-size: px(22);
+        margin-top: px(55);
+        width: px(480);
+        outline: none;
+        border: none;
+        border-radius: px(60) px(60);
+      }
+    }
 
-  						footer {
-  										display: flex;
-  								    margin: px(45) auto;
-  								    width: px(480);
-  								    justify-content: space-between;
-  										a {
-  											display: inline-block;
-  											color: #99948e;
-  											font-size: px(18);
-  											text-decoration: none;
-  										}
-  									}
-  						}
+    footer {
+      display: flex;
+      margin: px(45) auto;
+      width: px(480);
+      justify-content: space-between;
+      a {
+        display: inline-block;
+        color: #99948e;
+        font-size: px(18);
+        text-decoration: none;
+      }
+    }
+  }
   }
